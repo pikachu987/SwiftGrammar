@@ -35,3 +35,23 @@
 - 다른 객체에 영향을 주지 않고 개별적인 객체에게 동적으로 책임을 추가할 때
 - 클래스의 정의가 감추어져 있거나 그 클래스의 서브클래스를 만들수 없을 때
 - 어떤 클래스의 행동을 하려면 많은 수의 서브클래스가 필요할 때 사용
+
+#### - [스트레티지패턴(StrategyPattern)](./StrategyPattern.md "StrategyPattern")
+- 클래스에서 여러가지 행동을 정의하기 위해 오퍼레이션 안에 여러개의 조건문을 사용할 때 조건 분기문들을 스트래티지 패턴으로 옮길수 있음
+- 서로 다른 변형 알고리즘이 필요할 때
+- 복잡하면서 자신의 고유 알고리즘 성격이 강한 데이터 구조를 클라이언트에게 노출시키지 않아야 할 때
+- MVC에서 뷰와 컨트롤러는 스트래티지 패턴을 기반으로 한다. 컨트롤러마다 다른 내용의 출력 형태나 내용이 달라지게 되면 그 때마다 뷰의 출력내용이 달라짐
+
+#### - [추상팩토리패턴(AbstractFactoryPattern)](./AbstractFactoryPattern.md "AbstractFactoryPattern")
+
+
+#### - [팩토리메서드패턴(FactoryMethodPattern)](./FactoryMethodPattern.md "FactoryMethodPattern")
+
+
+#### - [퍼사드패턴(FacadePattern)](./FacadePattern.md "StrategyFacadePatternPattern")
+
+
+#### - [빌더패턴(BuilderPattern)](./BuilderPattern.md "BuilderPattern")
+
+
+#### - [어답터패턴(AdapterPattern)](./AdapterPattern.md "AdapterPattern")

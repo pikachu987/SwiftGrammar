@@ -8,7 +8,6 @@
 
 ````Swift
 import UIKit
-import UIKit
 
 // Component
 // + operation()
